@@ -1,0 +1,136 @@
+.header-main {
+	width: 100%;
+	height: 60px;
+	background-color: navajowhite;
+
+}
+body {background-color: #1e1e1e;}
+.dropm {
+	font-family:alibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-weight: bold;
+	color: white;
+	border: 2px solid orange;
+	text-align: center;
+	width: 10em;
+	background-color: orange;}
+nav ul	{ display: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;}
+	nav:hover ul {display: block;}
+	nav ul li {border-top:2px solid orange;
+	background-color:white;
+	width: 10em;
+	color: black;}
+	nav ul li:hover {background-color: gray;}
+	a {text-decoration: none;}
+}
+
+
+.my-pic1 {
+float: left;	
+}
+
+.biopic {
+width: 300px;
+margin-left: 300px;
+
+}
+
+
+.cvpic {
+width: 300px;
+
+}
+.socpic {
+width: 300px;
+
+}
+
+
+.major {
+	font-size: 25px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	text-align: center;
+}
+.my-name {
+	font-size: 50px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	text-align: center;
+
+}
+.my-name2 { font-size: 50px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+
+}
+h1 { font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 26.4px; } h3 { font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px;  }
+p {color: white;}
+h1 {color:white;}
+h2 {color: white;}
+h3 {color: white;}
+ul {color: white;}
+ol {color: white;}
+.uni {
+	text-transform: none;
+	line-height: 100px;
+}
+
+.skl {
+text-align: left;
+
+}
+.edu {
+float: left;
+}
+
+.lang {
+	text-align: center;
+	margin-right: 900px;
+}
+
+.footer-main {
+	width: 100%;
+	height: 60px;
+	background-color: navajowhite;
+}
+.box {
+    box-sizing: border-box;
+    padding: 20px;
+}
+.box2{
+    width: 100%;
+    background-color: #fff;
+}
+.flex{
+    display: flex;
+    width: 100%;
+}
+    .flex-col{
+    flex-direction: column;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.themeT{
+    color: var(--primary-color);
+}
+
+.innerContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+}
+.textInput{
+    padding: 10px 15px;
+    width: 80%;
+    margin: 7px auto;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
